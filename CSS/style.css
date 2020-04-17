@@ -150,8 +150,6 @@ body, html {
 
 .the-designers {
     max-width: 1264px;
-    padding-left: 32px;
-    padding-right: 32px;
     margin: 0 auto;
     margin-bottom: 128px;
 }
@@ -177,8 +175,9 @@ body, html {
 }
 
 .card {
-    margin-right: 16px;
     margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .student:hover .arrow-right {
