@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: #0c0c0c;
+}
+
+.image {
+    width: 650px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 250px;
+    margin-top: 250px;
+    z-index: 0;
+    opacity: .5;
+    background-image: url("https://images.unsplash.com/photo-1484157119942-055b73a61044?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+}
+
+.image-bg {
+    width: 650px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 50px;
+    margin-top: 100px;
+    z-index: 0;
+    background-color: white;
+}
+
+.logo {
+    margin: 0 auto;
+    max-width: 1264px;
+    padding-left: 32px;
+    padding-right: 32px;
+    color: white;
+    mix-blend-mode: difference;
+    height: 90vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+    z-index: 1;
+    position: relative;
+}
+
+.logo h1 {
+    margin: 0px;
+    font-size: 72px
+}
+
+.logo p {
+    margin: 0px;
+    font-size: 22px;
+}
+
+.welcome {
+    margin-bottom: 64px;
+}
+
+.presented {
+    background-color: rgba(255, 255, 255, 1);
+    mix-blend-mode: normal;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+}
+
+.presented p {
+    font-weight: 700;
+    color: black;
+}
+
+.who {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1264px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+    position: relative;
+}
+
+.who-are-we {
+    color: white;
+}
+
+.who-are-we p {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.we-are {
+    color: white;
+}
+
+.we-are p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0px;
+    max-width: 600px;
+}
+
+.we-are p span {
+    font-weight: 700;
+}
+
+.university {
+    color: white;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.location img {
+    margin-right: 8px;
+}
+
+.location p {
+    margin: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.scroll {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 128px;
+    position: relative;
+}
+
+.arrow-icon {
+    margin-right: 16px;
+}
+
+.the-designers {
+    max-width: 1264px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+
+.the-designers a {
+    text-decoration: none;
+    color: black;
+}
+
+.the-designers h1 {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-right: 16px;
+    margin-bottom: 32px;
+}
+
+.student:hover .arrow-right {
+    transform: translateX(15px);
+}
+
+.student {
+    display: inline-flex;
+    background-color: white;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+}
+
+.arrow-right {
+    margin-left: 16px;
+    transition: all .3s ease;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .welcome h1 {
+        font-size: 42px;
+    }
+
+    .welcome img {
+        width: 50%;
+    }
+
+    .image {
+        display: none;
+    }
+    
+
+    .image-bg {
+        display: none;
+    }
+
+    .logo {
+        font-size: 32px;
+    }
+
+    .who {
+        flex-direction: column;
+    }
+
+    .who-are-we {
+        margin-bottom: 32px;
+    }
+
+    .we-are {
+        margin-bottom: 32px;
+    }
+}
