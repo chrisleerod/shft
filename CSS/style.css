@@ -105,7 +105,7 @@ body, html {
 }
 
 .we-are p {
-    color: white;
+    color: rgb(184, 184, 184);
     font-size: 16px;
     line-height: 1.5em;
     margin: 0px;
@@ -114,6 +114,7 @@ body, html {
 
 .we-are p span {
     font-weight: 700;
+    color: white;
 }
 
 .university {
