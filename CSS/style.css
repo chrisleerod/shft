@@ -33,7 +33,7 @@ body, html {
 }
 
 .hero{
-    background-image: url("./icons/background.png");
+    background-image: url("../icons/background.png");
 }
 
 .logo {
