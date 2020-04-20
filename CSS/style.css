@@ -32,13 +32,15 @@ body, html {
     background-color: white;
 }
 
+.hero{
+    background-image: url("/icons/background.png");
+}
+
 .logo {
     margin: 0 auto;
-    max-width: 1264px;
     padding-left: 32px;
     padding-right: 32px;
     color: white;
-    mix-blend-mode: difference;
     height: 90vh;
     display: flex;
     text-align: center;
@@ -143,6 +145,7 @@ body, html {
     justify-content: center;
     margin-bottom: 128px;
     position: relative;
+    padding-bottom: 64px;
 }
 
 .arrow-icon {
@@ -191,7 +194,7 @@ body, html {
     border-radius: 8px;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 220px;
     height: 60px;
 }
 
